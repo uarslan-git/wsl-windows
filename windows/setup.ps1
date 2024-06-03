@@ -2,6 +2,7 @@ Write-Host "Starting Installation of Apps"
 $apps = @( 
     @{name = "Microsoft.PowerShell" },
     @{name = "Microsoft.VisualStudioCode" }, 
+    @{name = "Microsoft.VisualStudio.2022.Community" }, 
     @{name = "Microsoft.WindowsTerminal"; source = "msstore" },
     @{name = "JanDeDobbeleer.OhMyPosh"; source = "winget" }, 
     @{name = "Microsoft.AzureStorageExplorer" }, 
