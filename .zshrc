@@ -37,3 +37,7 @@ alias vim="nvim"
 alias nf="neofetch"
 alias docker-stop="docker stop $(docker ps -a -q)"
 alias docker-rm="docker rm $(docker ps -a -q)"
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
